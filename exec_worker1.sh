@@ -11,7 +11,6 @@ else
 fi
 
 username="ubuntu"
-instance_ip="18.118.21.101" # change this to your worker2 instance IP
 keypair_name="~/.ssh/mkp-5-10-2023"
 
 echo "Connecting to instance..."
