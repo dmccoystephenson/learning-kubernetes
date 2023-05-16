@@ -4,8 +4,7 @@ if [ -z "$MASTER_IP" ]
 then
     # get input
     echo "Enter master instance IP: "
-    read MASTER_IP
-    echo "MASTER_IP has been set to $MASTER_IP"
+    read instance_ip
 else
       instance_ip=$MASTER_IP
 fi

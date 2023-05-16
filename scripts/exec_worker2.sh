@@ -4,10 +4,9 @@ if [ -z "$WORKER_2_IP" ]
 then
     # get input
     echo "Enter worker 2 instance IP: "
-    read WORKER_2
-    echo "WORKER_2 has been set to $WORKER_2"
+    read instance_ip
 else
-      instance_ip=$WORKER_1
+      instance_ip=$WORKER_2_IP
 fi
 
 username="ubuntu"
